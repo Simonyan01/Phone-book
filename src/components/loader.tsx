@@ -1,4 +1,4 @@
-import styles from "../styles/loader.module.scss"
+import styles from "@styles/loader.module.scss"
 
 const Loader: React.FC = () => {
     return (

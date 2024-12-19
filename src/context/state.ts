@@ -1,4 +1,4 @@
-import { IState } from "../types/types"
+import { IState } from "../types/contact-types"
 
 export const initialState: IState = {
   contacts: [],

@@ -1,7 +1,7 @@
-import { ContactList } from "./components/contacts-list"
-import { ContactContext } from "./context/context"
-import { initialState } from "./context/state"
-import { reducer } from "./context/reducer"
+import { ContactList } from "@components/contacts-list"
+import { ContactContext } from "@context/context"
+import { initialState } from "@context/state"
+import { reducer } from "@context/reducer"
 import { useReducer } from "react"
 
 export default function App() {

@@ -9,9 +9,9 @@ export default defineConfig({
   resolve: {
     alias: {
       "@components": "/src/components",
-      "@data": "./src/data",
-      "@state": "./src/state",
-      "@types": "./src/types",
+      "@context": "/src/context",
+      "@data": "/src/data",
+      "@styles": "/src/styles",
     },
   },
 })

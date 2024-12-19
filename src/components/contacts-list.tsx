@@ -1,9 +1,9 @@
-import styles from "../styles/contact-list.module.scss"
-import { ContactContext } from "../context/context"
+import styles from "@styles/contact-list.module.scss"
+import { ContactContext } from "@context/context"
 import { ToastContainer } from "react-toastify"
-import { fetchContacts } from "../context/api"
 import { useContext, useEffect } from "react"
-import { Types } from "../types/types"
+import { fetchContacts } from "@context/api"
+import { Types } from "../types/contact-types"
 import { Contact } from "./contact"
 import Loader from "./loader"
 

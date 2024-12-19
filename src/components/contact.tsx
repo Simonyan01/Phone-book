@@ -1,7 +1,7 @@
-import { ContactContext } from "../context/context"
-import styles from "../styles/contact.module.scss"
-import { IContactProps, Types } from "../types/types"
-import { deleteContact } from "../context/api"
+import { IContactProps, Types } from "../types/contact-types"
+import styles from "@styles/contact.module.scss"
+import { ContactContext } from "@context/context"
+import { deleteContact } from "@context/api"
 import { useContext } from "react"
 
 export const Contact: React.FC<IContactProps> = ({ contact }) => {

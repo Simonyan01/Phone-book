@@ -1,4 +1,4 @@
-import { IContact, IAction, IState, Types } from "../types/types"
+import { IContact, IAction, IState, Types } from "../types/contact-types"
 
 export const reducer = (state: IState, action: IAction) => {
   switch (action.type) {

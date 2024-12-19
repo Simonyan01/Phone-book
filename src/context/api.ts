@@ -1,4 +1,4 @@
-import { IContact } from "../types/types"
+import { IContact } from "../types/contact-types"
 import { toast } from "react-toastify"
 import axios from "axios"
 
