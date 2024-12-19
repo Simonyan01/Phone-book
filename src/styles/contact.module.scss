@@ -1,0 +1,40 @@
+.contactCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  .contactInfo {
+    display: flex;
+    flex-direction: column;
+
+    strong {
+      font-size: 16px;
+      color: #333;
+    }
+
+    span {
+      font-size: 14px;
+      color: #666;
+    }
+  }
+
+  .deleteButton {
+    background: #ff4d4f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: #d53330;
+    }
+  }
+}
